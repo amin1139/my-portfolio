@@ -1,0 +1,25 @@
+body{
+    background-color: #1d1d20
+}
+
+nav{
+    color: #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+}
+.rigtNav{
+    margin-top: 5px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.rigtNav img{
+    height: 30px;
+    width: 30px;
+}
