@@ -28,8 +28,8 @@ li{
 .home{
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .left{
     color: #d1d1d1;
