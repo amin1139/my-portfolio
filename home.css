@@ -77,21 +77,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#fd2155; 
 }
-.frontend{
-    font-size: 4rem;
-    font-family: sans-serif
-}
 
 /* RESPONSIVE DESING */
 
 @media (max-width: 920px){
-    nav .rightNav{
-        display: none;
-    }
-
-    nav .toggle_btn{
-        color: white;
-        display: block;
-    }
+    
 }
 
