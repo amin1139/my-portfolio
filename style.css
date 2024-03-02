@@ -1,27 +1,47 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+} */
 body {
-    background-color: #1d1d20
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+    background-color: #1d1d20;
 }
+
 
 nav {
     color: #d1d1d1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: auto;
+    margin: 2vh 1.5vw 2vh 1.5vw;
 }
 
 nav ul {
+    width: 90vw;
+    max-width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    gap: 3vw;
+    flex-wrap: wrap;
+    padding: 8px;
 }
 
 nav ul li {
     list-style: none;
-    margin: 0 1.5rem;
 }
 
 .leftNav img {
-    height: 1.8rem;
+    width: 8vw;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 .toggle_btn{
@@ -30,6 +50,7 @@ nav ul li {
 
 main {
     display: flex;
+    gap: 8px;
     justify-content: space-around;
     align-items: center;
 }
@@ -62,7 +83,9 @@ a {
 }
 
 .right img {
-    height: 500px;
+    width: 70vh;
+    max-width: 100%;
+    height: auto;
 }
 h1{
     font-size: 4rem;
@@ -80,7 +103,24 @@ h1{
 
 /* RESPONSIVE DESING */
 
-@media (max-width: 920px){
-    
+@media (min-width: 780px), (max-width: 1000px){
+    .leftNav img {
+        width: 11vw;
+    }
+}
+@media (max-width: 780px){
+    nav{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    nav ul{
+        justify-content: space-around;
+        gap: 8vw;
+    }
+    .leftNav img {
+        width: 11vw;
+    }
 }
 
