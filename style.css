@@ -174,5 +174,8 @@ a {
         max-width: 100%;
         height: auto;
     }
+    #aboutMe p {
+        text-align:center;
+    }
 }
 
